@@ -1,0 +1,9 @@
+Resources:
+  MyClodFormationEc2:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-01163e76c844a2129
+      InstanceType: t2.micro
+      AvailabilityZone: us-west-1
+  
+   
